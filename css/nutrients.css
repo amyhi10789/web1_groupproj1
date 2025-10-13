@@ -14,6 +14,13 @@
 .main-1 {
     grid-row: 3;
     grid-column: 1 / span 1;
+    background-color: #723D46;
+}
+
+.belowmain {
+    grid-row: 4;
+    grid-column: 1 / span 1;
+    background-color: #723D46;
 }
 
 .main-2 {
@@ -49,3 +56,10 @@
     grid-column: 2 / span 1; 
     background-color: #d4a373;
 }
+.belowsidecontent {
+    grid-row: 4 / span 1;
+    grid-column: 2;
+    background-color:#FFE1A8;
+}
+
+
