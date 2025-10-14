@@ -31,7 +31,7 @@
     
 }
 .main-image {
-    grid-row: 2;
+    grid-row: 3;
     grid-column:1 / span 2;
 }
 .side-nav {
@@ -43,12 +43,17 @@
     grid-column: 1 / span 3;
 }
 .support-1 {
-    grid-row: 4;
-    grid-column: 1
+    grid-row: 3;
+    grid-column: 1;
+    max-width: 600px;
+    margin-bottom: 20px;
+    
 }
 .support-2 {
-    grid-row: 4;
+    grid-row: 3;
     grid-column: 2;
+    max-width: 600px;
+    margin-bottom: 20px;
 }
 .header {
     grid-row: 0;
